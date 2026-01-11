@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'K2D', sans-serif;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #CFCFCF;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #4DA85B;
+  width: 20px;
+  border-radius: 4px;
+}

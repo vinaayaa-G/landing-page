@@ -1,0 +1,155 @@
+.devices-wrapper {
+  max-width: 1361px;
+  max-height: 753px;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.devices-badge {
+  display: inline-block;
+  padding: 6px 20px;
+  background: #e9f9ef;
+  color: #2e7d32;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 257px;
+  height: 52px;
+  margin: 0 auto; /* centers horizontally */
+  font-family: 'K2D', sans-serif; /* Correct way to use K2D */
+  font-size: 20px;
+  margin-bottom: 0px; /* reduce this value to shrink the gap */
+
+}
+
+.devices-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4caf50;
+  margin-bottom: 10px;
+   font-family: 'K2D', sans-serif; /* Use K2D font */
+  font-weight: 600;              /* Semibold */
+  font-size: 48px; 
+}
+
+.devices-subheading {
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'K2D', sans-serif; /* Use K2D font */
+  font-weight: 600;              /* Semibold */
+  font-size: 20px;               /* Add px unit */
+}
+
+
+/* ------------------ */
+.cards-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  
+}
+
+/* ------------------ */
+.device-card {
+  flex: 1;
+  border: 1.5px solid #4caf50;
+  border-radius: 20px;
+  padding: 30px;
+  background: #fff;
+  min-height: 406px; /* instead of height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* TOP */
+.device-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.device-text {
+  max-width: 60%;
+  text-align: left;
+}
+
+.device-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.device-desc {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.device-image img {
+  max-width: 194px;
+  max-height: 194px;
+}
+
+/* BOTTOM */
+.device-bottom {
+  display: flex;
+  align-items: flex-start;   /* 🔥 TOP ALIGN */
+  justify-content: flex-start; /* 🔥 LEFT ALIGN */
+  margin-top: auto;          /* keeps bottom section aligned across cards */
+  padding-top: 20px;
+}
+
+
+.list-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* LEFT */
+  justify-content: flex-start; /* TOP */
+}
+
+
+.list-title {
+  color: #4caf50;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.list-block ul {
+  margin: 0;
+  padding-left: 18px;
+  text-align: left;
+}
+
+
+.list-block li {
+  margin-bottom: 6px;
+}
+
+/* Divider */
+.list-divider {
+  width: 2px;
+  height: 130px;
+  background: #4caf50;
+  margin: 25px 20px;
+}
+
+.heading {
+  width: 925px;
+  height: 131px;
+  margin: 0 auto; /* centers horizontally */
+margin-top: -40px; /* remove any top margin if present */  
+}
+
+.bullet-points,
+.bullet-points1 {
+  font-family: 'K2D', sans-serif;
+  font-size: 14px;
+  padding-left: 18px;
+}
+
+.list-block li {
+  margin-bottom: 8px;
+}
