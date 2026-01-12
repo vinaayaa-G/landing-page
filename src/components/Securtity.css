@@ -1,0 +1,83 @@
+.security-wrapper {
+  padding: 120px 100px;
+  text-align: center;
+}
+
+/* 1️⃣ SECURITY PROTOCOL TAG */
+.security-tag {
+  display: inline-block;
+  background: #ECFDF5;
+  color: #30B654;
+  padding: 10px 28px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+/* 2️⃣ MAIN HEADING */
+.security-heading {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.security-heading span {
+  color: #30B654;
+}
+
+/* 3️⃣ SUBTITLE */
+.security-subtitle {
+  margin-top: 18px;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+/* GRID */
+.security-grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 580px);
+  gap: 53px 80px;
+  justify-content: center;
+}
+
+/* 4️⃣ CARD */
+.security-card {
+  display: flex;
+  gap: 24px;
+  padding: 26px;
+  width: 580px;
+  height: 164px;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 7px 4px 4px rgba(72, 131, 56, 0.51);
+}
+
+/* ICON */
+.security-icon {
+  width: 90px;
+  height: 90px;
+  background: #30B654;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 42px;
+}
+
+/* TEXT */
+.security-text h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.security-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
