@@ -1,7 +1,13 @@
-import DevicesSection from "./components/DevicesSection.jsx";
+import DevicesSection from "./components/DevicesSection";
+import Security from "./components/Security";
 
 function App() {
-  return <DevicesSection />;
+  return (
+    <main>
+      <DevicesSection />
+      <Security />
+    </main>
+  );
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import "./Security.css";
+import "./Securtity.css";
 import SecurityCard from "./SecurityCard";
 import {
   MdLock,
